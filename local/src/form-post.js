@@ -30,7 +30,8 @@ export default function FormPost() {
     }
 
     return (
-    <div style={{margin:'30px'}}>
+    <div className="border p-3 mb-3 w-50 mx-auto text-center">
+        <h3>Form POST-API</h3><br></br>
         <form ref={form} onSubmit={onSubmitForm}>
             <div>ติดต่อเรา</div>
             <input type="text" name="name" size="43" placeholder="ชื่อ" style={inputStyle} /><br/>
