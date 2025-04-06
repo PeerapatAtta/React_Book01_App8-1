@@ -29,7 +29,7 @@ export default function RestBasic() {
     // ฟังก์ชันนี้จะทำงานเมื่อคอมโพเนนต์ถูกเรนเดอร์ หรืออัปเดต JSX สำหรับแสดงผล
     return (
         <>
-            <h1 className="border p-3 m-3 w-50 mx-auto text-center">App8.1 : React-Node</h1>
+            <h1 className="border p-3 m-3 w-50 mx-auto text-center">App8.1 : React-API Node</h1>
             <div className="border p-3 mb-3 w-50 mx-auto text-center">
                 <h3>Display on Local from server data</h3><br></br>
                 <button onClick={onClickShowTime}>แสดงเวลาจาก Server</button>  {/* ปุ่มที่เมื่อคลิกจะเรียกใช้ฟังก์ชัน onClickShowTime */}

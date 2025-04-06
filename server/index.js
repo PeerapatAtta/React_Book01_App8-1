@@ -41,18 +41,19 @@ app.get('/api/football-result', (request, response) => {
     response.send(table)
 })
 
-// app.get('/api/form-get', (request, response) => {
-//     let t = request.query.target || ''
-//     let k = request.query.kw || ''
-//     let n = parseInt((Math.random() * 1000))
+// api รับข้อมูลจากฟอร์มแบบ GET
+app.get('/api/form-get', (request, response) => {
+    let t = request.query.target || ''
+    let k = request.query.kw || ''
+    let n = parseInt((Math.random() * 1000))
 
-//     let r = {
-//         target: t,
-//         kw: k,
-//         results: n
-//     }
-//     response.json(r)
-// })
+    let r = {
+        target: t,
+        kw: k,
+        results: n
+    }
+    response.json(r)
+})
 
 // app.post('/api/form-post', (request, response) => {
 //     let name = request.body.name || ''
